@@ -1,0 +1,136 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding: 44px 1.5rem 100px 1.5rem;
+  min-height: 100vh;
+  background: var(--back-primary-color);
+  margin: 140px 0 0 0;
+}
+
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background: var(--back-light-color);
+  padding: 75px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: var(--text-black-color);
+}
+
+form #title5 {
+  text-align: center;
+  margin: 0;
+  color: var(--text-black-color);
+  font-family: var(--font);
+  font-size: var(--font-size28);
+}
+
+form .input-box {
+  margin-top: 20px;
+  width: 46%;
+  text-align: center;
+}
+
+form .field:hover {
+    background-image: linear-gradient(to right, rgb(78, 135, 109) , rgb(240, 240, 167));
+    color: var(--text-color);
+    border: none;
+    width: 80%;
+    height: 50px;
+    border-radius: 50px;
+}
+
+form .field:focus {
+    background-image: linear-gradient(to right, rgb(78, 135, 109) , rgb(240, 240, 167));
+    color: var(--text-color);
+    border: none;
+    width: 80%;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.input-box .field {
+  width: 80%;
+  height: 50px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  border-radius: 50px;
+  border-bottom: 1px solid var(--text-black-color);
+  padding: 15px;
+  color: var(--text-black-color);
+  font-family: var(--font);
+  font-size: var(--font-size18);
+  margin-top: 10px;
+}
+
+.boxContactInfo1 {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin: 5px 0 5px 0;
+}
+
+
+form button {
+    width: 34%;
+    height: 12vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background: transparent;
+    border: 1px solid var(--text-black-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    color: var(--text-black-color);
+    font-weight: 500;
+    margin-top: 60px;
+    transition: 5s;
+    font-family: var(--font);
+    font-size: var(--font-size18);
+}
+
+form button:hover {
+    /* background: linear-gradient(to right, #f5c799,#FBDDBF, #EDE3D4); */
+    background: linear-gradient(to right, rgb(78, 135, 109) , rgb(240, 240, 167));
+    /* background: linear-gradient(to right, #39654d,#38684c, #769483); */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  @media (max-width: 800px) {
+
+    form {
+      width: 88%;
+      padding: 35px;
+  }
+
+  .boxContactInfo1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  form .input-box {
+    width: 100%;
+    text-align: center;
+  }
+
+  .input-box .field {
+    width: 92%;
+    height: 30px;
+    padding: 4%;
+  }
+
+  form button {
+    width: 100%;
+  }
+
+  }
+ 
+ 
+

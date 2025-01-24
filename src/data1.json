@@ -1,0 +1,32 @@
+[
+    {
+        "titleBig": "Scandinavia",
+        "image1": "./images/norway-aurora.jpg",
+        "titleSmall": "Norway",
+        "step3": "01 -",
+        "step4": "03",
+        "descrip": "Nature can really put on a breathtaking show! Look at like the aurora borealis dances gracefully across the sky, painting it in shades of green and purple.",
+        "id": 1
+    },
+    
+    {
+        "titleBig": "Asia",
+        "image1": "./images/ocean.jpg",
+        "titleSmall": "Indonesia",
+        "step3": "02 -",
+        "step4": "03",
+        "descrip": "Discover the beauty of Indonesia, from stunning landscapes to rich culture and delicious cuisine, promising unforgettable experiences.",
+        "id": 2
+    },
+
+
+    {
+        "titleBig": "Afrika",
+        "image1": "./images/afrika-feld.jpg",
+        "titleSmall": "Afrika",
+        "step3": "03 -",
+        "step4": "03",
+        "descrip": "When it comes to balloon safari destinations, we recommend making the most of the bird's eye view by booking your trip in one of Africa's original and most iconic safari destinations: the Masai Mara in Kenya and the Serengeti in Tanzania.",
+        "id": 3
+    }
+]

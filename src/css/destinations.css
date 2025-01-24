@@ -1,0 +1,136 @@
+.destinations-box {
+  transition: all 0.3s ease;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  margin: 0;
+  padding: 0 1.5rem 100px 1.5rem;
+  background-repeat: no-repeat;
+  color: var(--text-color);
+}
+
+.title {
+  padding: 0;
+}
+
+#explore {
+  font-size: var(--font-size20);
+}
+
+.content {
+  transition: opacity 0.3s ease;
+}
+
+#titleBig {
+  font-family: var(--font);
+  font-size: var(--font-size130);
+  color: var(--text-color);
+  margin: 100px 0 50px 0;
+}
+
+.middleBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: var(--font);
+  font-size: var(--font-size20);
+  color: var(--text-color);
+}
+
+.lastBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: var(--font);
+  font-size: var(--font-size20);
+  color: var(--text-color);
+  margin-top: 70px;
+}
+
+#descrip {
+  width: 30%;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 50%;
+  height: 160px;
+  align-items: center;
+  align-self: center;
+}
+
+.nav-buttons button {
+  width: 100%;
+  height: 20vh;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.nav-buttons button:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .destinations-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #titleBig {
+    font-size: 60px;
+  }
+
+  .middleBox {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .title {
+    margin: 0;
+  }
+
+  #titleSmall {
+    margin: 0;
+  }
+
+  #stepss {
+    margin: 0;
+  }
+
+  .lastBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #descrip {
+    width: 100%;
+  }
+
+  .navigation {
+    position: relative;
+  }
+
+  .nav-buttons {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 30px;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-buttons button {
+    height: 40vh;
+  }
+}

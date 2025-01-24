@@ -1,0 +1,91 @@
+
+    .how-we-work-section {
+        margin: 0;
+        margin-top: 140px;
+        padding: 0 1.5rem 100px 1.5rem;
+        padding-top: 44px;
+        /* width: 100%; */
+        /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+          url("./images/mainImgHalonBay.jpg"); */
+        /* height: auto; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: var(--back-primary-color);
+        display: flex;
+      flex-direction: column;
+      }
+    
+      .bar {
+        display: flex;
+        flex-direction: row;
+        width: calc(50% + 33px)!important;
+        justify-content: space-between;
+        /* border: 1px solid white; */
+    }
+    
+    .how-we-work-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 54%;
+        border-radius: 8px;
+        align-self: center;
+        gap: 34px;
+        margin: 100px 0 0 0;
+        background-color: var(--back-light-color);
+    }
+    
+    .smallBox {
+        width: 34vw;
+        height: 38vh;
+        border-radius: 8px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .how-we-work-box p {
+        margin: 0;
+        padding: 0;
+        font-family: var(--font);
+        color: var(--text-black-color);
+    }
+    
+    #steps {
+        padding: 32px 0 0 0;
+        font-size: var(--font-size16);
+    }
+    
+    #title1 {
+        font-size: var(--font-size26);
+        color: var(--text-black-color);
+    }
+    
+    span {
+        color: var( --text-light-color);
+    }
+    
+    #textBox {
+        width: 70%;
+        margin: 0;
+        padding: 0 0 74px 0;
+        font-size: var(--font-size18);
+    }
+
+
+@media (max-width: 1200px) {
+
+
+    .how-we-work-box {
+        width: 100%;
+    }
+
+    .smallBox {
+       width: 60vw;
+       height: 38vw;
+    }
+ 
+}
+
+

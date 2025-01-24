@@ -1,0 +1,204 @@
+.story-section {
+  margin: 0;
+  margin-top: 140px;
+  padding: 0 1.5rem 100px 1.5rem;
+  padding-top: 44px;
+  /* width: 100%; */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/mainImgHalonBay.jpg"); */
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--back-primary-color);
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    width: calc(50% + 33px);
+    justify-content: space-between;
+    /* border: 1px solid white; */
+}
+
+#scroll {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* #Up {
+    font-family: var(--font);
+    font-size: var(--font-size16);
+    padding: 10px;
+    align-content: center;
+  } */
+
+.title p {
+  font-family: var(--font);
+  font-size: var(--font-size18);
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  /* border: 1px solid white; */
+}
+
+#IconMenu {
+  height: 16px;
+  width: 16px;
+}
+
+.TextStoryWelcome {
+  font-family: var(--font);
+}
+
+.TextStoryWelcome p {
+  font-size: var(--font-size44);
+  width: 80%;
+  margin: 0;
+}
+
+.TextStoryWelcome #p1 {
+  font-size: var(--font-size18);
+  width: 80%;
+  margin: 0;
+}
+
+.TextStoryWelcome {
+  width: 40%;
+  text-align: left;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  align-self: flex-end;
+  /* margin-top: 150px; */
+  /* border: 1px solid green; */
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.achievements {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 70px;
+}
+
+#number {
+  font-family: var(--font);
+  font-size: var(--font-size80);
+  margin: 0;
+  line-height: 0%;
+}
+
+.achievements #achieves {
+  font-family: var(--font);
+  font-size: var(--font-size18);
+}
+
+#text {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-align: right;
+  align-self: center;
+  padding: 10px;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding: 20px 10px 0px;
+  /* border: 1px solid white; */
+}
+
+#line {
+  border: 1px solid var(--text-color);
+}
+
+.storyPhotos {
+    display: flex;
+    gap: 34px;
+    padding: 70px 0 0 0;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    -ms-overflow-style: none;
+}
+
+.storyPhotos::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+
+#storyPhoto1, #storyPhoto3, #storyPhoto5, #storyPhoto7 {
+    height: 50vw;
+    width: 50vw;
+    border-radius: 20%;
+    max-height: 300px;
+    max-width: 300px;
+    min-width: 200px;
+    min-height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#storyPhoto2, #storyPhoto4, #storyPhoto6, #storyPhoto8 {
+    height: 50vw;
+    width: 50vw;
+    border-radius: 20%;
+    max-height: 380px;
+    max-width: 316px;
+    min-width: 220px;
+    min-height: 280px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.storyPhotos img {
+  flex: 0 0 auto;
+  /* object-fit: cover;
+   height: 200px; */
+}
+
+@media (max-width: 1200px) {
+  /* .bar {
+    width: 100%!important;
+} */
+
+.content-container {
+  flex-direction: column;
+}
+
+.TextStoryWelcome {
+  width: 100%;
+  gap: 30px;
+  padding: 70px 0 0;
+}
+
+.TextStoryWelcome p {
+  font-size: var(--font-size34);
+  width: 100%;
+}
+
+.achievements {
+  width: 100%;
+  margin-top: 70px;
+}
+
+.storyPhotos {
+  padding: 70px 0 0 0;
+}
+
+}
+

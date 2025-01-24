@@ -1,0 +1,196 @@
+.homeDiv {
+  margin: 0;
+  padding: 0 1.5rem 0 1.5rem;
+  /* width: 100%; */
+  /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/mainImgHalonBay.jpg"); */
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mainDiv {
+  /* width: 100vw; */
+  height: 100vh;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 20px;
+  align-items: center;
+  text-transform: none;
+  /* border: 1px solid white; */
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#story-section {
+  scroll-margin-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-family: var(--font);
+  font-size: var(--font-size18);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  /* background: linear-gradient(to right, #f5c799,#FBDDBF, #EDE3D4); */
+  background: linear-gradient(to right, rgb(78, 135, 109), rgb(240, 240, 167));
+  /* background: linear-gradient(to right, #39654d,#38684c, #769483); */
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navigation {
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin: 0;
+  align-items: center;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.btn {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainBtn {
+  font-family: var(--font);
+  font-size: var(--font-size18);
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+  background-color: transparent;
+}
+
+.btnPlay {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  right: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.burger-menu span {
+  width: 60px;
+  height: 8px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 1260px) {
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    right: 1%;
+    cursor: pointer;
+  }
+
+  .burger-menu span {
+    width: 60px;
+    height: 8px;
+    background-color: var(--text-color);
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  .burger-menu.active span:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  .burger-menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-menu.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(8px, -8px);
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: flex-start;
+    top: 0;
+    right: -200%;
+    height: 100vh;
+    width: 96%;
+    background-color: #35483ea5;
+    transition: right 0.3s ease;
+    padding: 160px 20px;
+    color: var(--text-color);
+    gap: 20px;
+    transition: all 0.3s ease;
+    /* z-index: 1000; */
+  }
+
+  .nav-links.active {
+    right: 0;
+    backdrop-filter: blur(20px);
+  }
+
+  /* .blur-background {
+    filter: blur(5px);
+    transition: filter 0.3s ease;
+  } */
+
+  .nav a {
+    font-size: 24px;
+    margin: 0 30px 30px 30px;
+  }
+
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  gap: 24px;
+  padding: 20px;
+  align-items: center;
+  text-transform: none;
+  /* border: 1px solid white; */
+}
+
+}
